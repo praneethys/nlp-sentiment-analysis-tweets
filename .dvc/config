@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+
+['remote "myremote"']
+    url = s3://nlp-praneeth
+    profile = praneethPersonalUser
