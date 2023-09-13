@@ -1,0 +1,19 @@
+{
+    "branches": {
+        "name": "main",
+        "prerelease": false
+    },
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      [
+        "@semantic-release/changelog",
+       {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "# NLP Sentiment Analysis Tweets Changelog"
+       }
+      ]
+    ]
+  }

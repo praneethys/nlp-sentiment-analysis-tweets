@@ -2,6 +2,8 @@
   "name": "nlp_sentiment_analysis_tweets",
   "description": "NLP Sentiment Analysis Tweets",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "semantic-versioning": "^1.0.2"
   }
 }
