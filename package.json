@@ -1,4 +1,6 @@
 {
+  "name": "nlp_sentiment_analysis_tweets",
+  "description": "NLP Sentiment Analysis Tweets",
   "devDependencies": {
     "semantic-versioning": "^1.0.2"
   }
